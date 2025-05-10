@@ -15,7 +15,9 @@
 .banner_item,
 .why_web_dev,
 .my_inspiration,
-.current_terget_text {
+.current_terget_text,
+.support_items,
+.copyright {
     text-align: center;
 }
 
@@ -120,3 +122,61 @@
 }
 
 /* end my current target section style*/
+
+/* start i need support section styles */
+#support_sesions {
+    background-image: url(./assets//handshake.jpg);
+    opacity: 0.95;
+    height: 315px;
+    background-position: center;
+
+}
+
+.support_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 315px;
+    max-height: 315px;
+    color: whitesmoke;
+    margin: 30px 0;
+
+}
+
+.field {
+    width: 100%;
+}
+
+.input_text {
+    padding: 5px 20px;
+    width: 30%;
+
+}
+
+.submit_btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* end i need support section styles */
+/* start footer */
+footer {
+    background-color: #e4e7ec;
+    margin: 2em 0;
+    padding: 10px;
+}
+
+.footer_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_icon {
+    display: flex;
+    gap: 2em;
+}
+
+/* end footer */
