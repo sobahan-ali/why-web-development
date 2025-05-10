@@ -13,7 +13,9 @@
 }
 
 .banner_item,
-.why_web_dev {
+.why_web_dev,
+.my_inspiration,
+.current_terget_text {
     text-align: center;
 }
 
@@ -31,6 +33,7 @@
 
 /* banner section style end */
 
+/* start why web development style  */
 .web_dev_cards {
     display: flex;
     flex-direction: column;
@@ -57,7 +60,8 @@
     padding: 15px;
 }
 
-.web_dev_btn {
+.web_dev_btn,
+.html_documentation {
     text-decoration: none;
     padding: 10px 20px;
     border: 2px solid black;
@@ -74,3 +78,45 @@
     display: flex;
     flex-direction: row-reverse;
 }
+
+
+/* end why web development style  */
+
+/* start inspiration video style */
+.inspiration_video {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+
+}
+
+.video {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 2px 1px gray;
+}
+
+/* end inspiration video style */
+
+/* start my current target section style*/
+.current_target_items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.current_target_item {
+    background-color: #f1e9e8;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+.item_2 {
+    background-color: #e0f3f8;
+}
+
+.item_3 {
+    background-color: #e8ebb2;
+}
+
+/* end my current target section style*/
